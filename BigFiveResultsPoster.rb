@@ -15,8 +15,7 @@ class BigFiveResultsPoster
   end
 
   def post
-    # posts a JSON representation of the result hash (as the request body) to
-    # https://recruitbot.trikeapps.com/api/v1/roles/mid-senior-web-developer/big_five_profile_submissions
+    # posts a JSON representation of the result hash (as the request body)
 
     @results_hash["EMAIL"] = @email
 

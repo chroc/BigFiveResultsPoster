@@ -79,7 +79,7 @@ class BigFiveResultsTextSerializer
     results
   end
 
-  # function taken from stackoverflow
+  # from stackoverflow
   # http://stackoverflow.com/questions/8616360/how-to-check-if-a-variable-is-a-number-or-a-string
   def is_number? number
     number.to_f.to_s == number.to_s || number.to_i.to_s == number.to_s
