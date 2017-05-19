@@ -23,7 +23,7 @@ read_file
 
 serializer = BigFiveResultsTextSerializer.new(@text)
 @results_hash = serializer.hash_function
-puts @results_hash
+
 poster = BigFiveResultsPoster.new(@results_hash, EMAIL)
 posted = poster.post
 if posted
